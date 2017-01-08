@@ -1,0 +1,31 @@
+Please follow the following instructions step by step in order to get started properly with Github.
+
+1. Navigate to https://github.com/iambradblackburn/portfolio
+2. Sign in
+3. Navigate to your profile home page or screenshot “a”.
+4. Navigate to your repositories library or screenshot “b”.
+5. Navigate to your portfolio repository or screenshot “c”.
+6. Click on the green clone or download button seen in screenshot “d”.
+7. Copy the link to the HTTPS version of your repository.
+8. Open a fresh terminal window on your computer.
+9. Type git —version and hit enter, to double check that git is installed properly on your computer
+10. Type “git clone” and paste the link to your repo you just copied from the browser in the fresh terminal window. (no quotations), then hit enter
+11. Double check your main user folder for a new folder named the same thing as your repository name to make sure it worked.
+12. Add a sample file in your terminal window by typing “touch sample_file_by_brad.txt” (no quotations) and press enter.
+13. Open the file in text editor, and do the following:
+	a. In the menu of text edit, click format, make plain text
+	b. In the menu of text edit, click edit, hover on substitutions, and then remove 	both checkmarks from smart quotes 	and smart dashes
+14. On your computer go to system preferences
+15. Click on keyboard in the system preferences menu
+16. In the keyboard menu at the top of the window, click on text
+17. Uncheck the box that says “Use smart quotes and dashes”
+18. Go back to text edit
+19. In text edit, add the following text to the sample_file_by_brad.txt document “Hi I’m Brad.” (no quotations)
+20. Go back to your terminal window
+21. Type the following verbatim: git pull && git add . && git commit -m “this is my first file commit” && git push and then press enter
+22. ignore all messages you receive except one, make sure you see master -> master on the last line
+23. type the following into the terminal window verbatim: git config —global user.name “Brad Blackburn” (please do not copy and paste this text, please type it and include the quotations), and then press enter.
+24. type the following into the terminal window verbatim: git config —global user.email “bradgotmail@gmail.com” (please do not copy and paste this text, please type it and include the quotations), and then press enter.
+25. Navigate to Navigate to https://github.com/iambradblackburn/portfolio; you are looking for evidence of your new file posted on github
+
+If you have any questions, please contact Samiah immediately before attempting to troubleshoot.
